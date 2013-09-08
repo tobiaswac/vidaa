@@ -10,4 +10,40 @@
  *
  *= require_self
  *= require_tree .
+ *= require flat-ui
  */
+
+
+body {
+
+    /* This image will be displayed fullscreen */
+    background:url('sunset-hair.jpg') no-repeat top center;
+
+    /* Ensure the html element always takes up the full height of the browser window */
+    min-height:100%;
+
+    /* The Magic */
+    background-size:cover;
+
+}
+
+fieldset {
+	width: 340px;
+}
+
+.signin {
+	padding-top: 120px;
+}
+
+h4 {
+	padding-bottom: 20px;
+}
+
+.alert {
+	margin-top: 12px;
+}
+
+.test {
+	width: 500px;
+	height: 100px;
+}
